@@ -1,5 +1,8 @@
 //https://leetcode.com/problems/spiral-matrix/?envType=study-plan-v2&envId=top-interview-150
 
+// Time Complexity: O(m * n), where m is the number of rows and n is the number of columns.
+// Space Complexity: O(m * n), due to the result list storing the matrix elements.
+
 import java.util.ArrayList;
 import java.util.List;
 
