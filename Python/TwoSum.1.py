@@ -1,3 +1,7 @@
+#https://leetcode.com/problems/two-sum/
+#level: Easy
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
@@ -14,3 +18,6 @@ class Solution:
 
         return [0, 0]
         
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
