@@ -1,4 +1,7 @@
 #https://leetcode.com/problems/longest-common-prefix
+#Level: easy
+#Time Complexity: O(n*m), n = len(strs), m = len(commonPrefix)
+
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
@@ -33,3 +36,5 @@ class Solution:
             prefLen+=1
         
         return common
+
+
