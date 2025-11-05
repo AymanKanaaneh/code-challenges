@@ -21,3 +21,24 @@ class Solution:
                 i += 1
 
         return max(maxSubstrLen, currentSubstrLen)
+    
+    
+
+#Level: medium
+#Time Complexity: O(n)
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        appeardLetters = set()
+        left = maxLen = 0
+
+        for right in range(len(s)):
+
+            while s[right] in appeardLetters:
+                appeardLetters.remove(s[left])
+                left += 1
+
+            appeardLetters.add(s[right])
+            maxLen = max(maxLen, right - left + 1)
+
+        return maxLen
