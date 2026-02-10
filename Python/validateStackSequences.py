@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/merge-two-sorted-lists/
+#https://leetcode.com/problems/validate-stack-sequences
 #Level: Medium
 #Time Complexity: O(n), n = len(pushed) = len(popped)
 #Space Complexity: O(n), n = len(pushed) = len(popped)
