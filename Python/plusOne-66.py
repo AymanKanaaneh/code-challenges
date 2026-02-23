@@ -1,3 +1,10 @@
+#https://leetcode.com/problems/plus-one/
+#Level: Easy
+#Time Complexity: O(n), n = len(nums)
+#Space Complexity: O(n), n = len(nums)
+
+
+
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         digitsLen = len(digits)
